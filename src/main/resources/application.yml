@@ -1,0 +1,5 @@
+# CHANGE THE PROFILE TYPE (local,dev,uat,prod) BEFORE TESTING / PUSHING TO GITLAB FOR  CI - CD 
+
+spring:
+  profiles:
+    active: ${active:dev}
